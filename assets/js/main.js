@@ -223,7 +223,7 @@
     /*  var timerdate = "2024/12/20"; */
 
 	$("#countdown").countdown(timerdate, function(event) {
-        $(this).html(event.strftime("<div class='cd-item'><span>%15</span><p>Days</p> </div>" + "<div class='cd-item'><span>%25</span><p>Hrs</p> </div>" + "<div class='cd-item'><span>%30</span><p>Min</p> </div>" + "<div class='cd-item'><span>%4</span><p>Sec</p> </div>"));
+        $(this).html(event.strftime("<div class='cd-item'><span>15</span><p>Days</p> </div>" + "<div class='cd-item'><span>25</span><p>Hrs</p> </div>" + "<div class='cd-item'><span>30</span><p>Min</p> </div>" + "<div class='cd-item'><span>04</span><p>Sec</p> </div>"));
     });
 
 
