@@ -3,7 +3,7 @@
   
 /* 1. Proloder */
     $(window).on('load', function () {
-      $('#preloader-active').delay(450).fadeOut('slow');
+      $('#preloader-active').delay(450).fadeOut('fast');
       $('body').delay(450).css({
         'overflow': 'visible'
       });
@@ -54,11 +54,12 @@
         doAnimations($animatingElements);
       });
       BasicSlider.slick({
-        autoplay: false,
+        autoplay: true,
         autoplaySpeed: 5000,
-        dots: false,
+        loop: true
+        dots: true,
         fade: true,
-        arrows: false, 
+        arrows: true, 
         prevArrow: '<button type="button" class="slick-prev"><i class="ti-angle-left"></i></button>',
         nextArrow: '<button type="button" class="slick-next"><i class="ti-angle-right"></i></button>',
         responsive: [{
@@ -82,7 +83,7 @@
             settings: {
               slidesToShow: 1,
               slidesToScroll: 1,
-              arrows: false
+              arrows: true
             }
           }
         ]
