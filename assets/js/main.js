@@ -57,9 +57,9 @@
         autoplay: true,
         autoplaySpeed: 5000,
         loop: true
-        dots: true,
+        dots: false,
         fade: true,
-        arrows: true, 
+        arrows: false, 
         prevArrow: '<button type="button" class="slick-prev"><i class="ti-angle-left"></i></button>',
         nextArrow: '<button type="button" class="slick-next"><i class="ti-angle-right"></i></button>',
         responsive: [{
@@ -83,7 +83,7 @@
             settings: {
               slidesToShow: 1,
               slidesToScroll: 1,
-              arrows: true
+              arrows: false
             }
           }
         ]
@@ -221,7 +221,7 @@
     
 
     // Use this for real timer date
-    /*  var timerdate = "2024/12/20"; */
+    /*  var timerdate = "2020/01/01"; */
 
 	$("#countdown").countdown(timerdate, function(event) {
         $(this).html(event.strftime("<div class='cd-item'><span>15</span><p>Days</p> </div>" + "<div class='cd-item'><span>25</span><p>Hrs</p> </div>" + "<div class='cd-item'><span>30</span><p>Min</p> </div>" + "<div class='cd-item'><span>60</span><p>Sec</p> </div>"));
