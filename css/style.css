@@ -11,7 +11,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Montserrat", sans-serif;
-  color: #222222;
+  color: #fff;
   font-weight: 600;
 }
 
@@ -148,7 +148,7 @@ ul.social-links li a i {
 
 .overlay-white:before {
   content: '';
-  background: linear-gradient(0deg, rgba(245, 245, 248, 0.8) 0%, #f7f7f7 100%);
+  background: transparent;
   position: absolute;
   top: 0;
   left: 0;
@@ -210,7 +210,7 @@ button:hover {
 }
 
 .bg-about {
-  background: url(../images/background/pattern-background.jpg) no-repeat;
+  background: transparent no-repeat;
   background-size: cover;
 }
 
@@ -232,12 +232,12 @@ button:hover {
 }
 
 .bg-service {
-  background: url(../images/background/feature-background.jpg) no-repeat;
+  background: url(../images/featbg.png) no-repeat;
   background-size: cover;
 }
 
 .bg-registration {
-  background: url(../images/background/registration-background.jpg) no-repeat;
+  background: url(../images/regbg.png) no-repeat;
   background-size: cover;
 }
 
@@ -247,19 +247,19 @@ button:hover {
 }
 
 .bg-ticket {
-  background: url(../images/background/cta-ticket-bg.jpg) fixed no-repeat;
+  background: url(../images/ticbg.png) fixed no-repeat;
   background-size: cover;
   background-position: center center;
 }
 
 .bg-sponsors {
-  background: url(../images/background/sponsors-bg.jpg) fixed no-repeat;
+  background: url(../images/spbb.png) fixed no-repeat;
   background-size: cover;
   background-position: center center;
 }
 
 .bg-subscribe {
-  background: url(../images/background/newsletter-bg.jpg) fixed no-repeat;
+  background: url(../images/hero1.png) fixed no-repeat;
   background-size: cover;
   background-position: center center;
 }
@@ -1889,7 +1889,7 @@ select.form-control:not([size]):not([multiple]) {
 
 .pricing .pricing-item .pricing-heading {
   padding: 20px 40px 30px 40px;
-  background: #fafafa;
+  background: grey;
   border-bottom: 1px solid #e5e5e5;
 }
 
