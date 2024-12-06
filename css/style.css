@@ -265,7 +265,7 @@ button:hover {
 }
 
 .bg-title {
-  background: url(../images/background/page-title-bg.jpg) no-repeat;
+  background: url(../images/background/hero1.png) no-repeat;
   background-size: cover;
   background-position: center center;
 }
@@ -943,7 +943,7 @@ select.form-control:not([size]):not([multiple]) {
   text-align: center;
   position: relative;
   font-weight: bold;
-  color: #fff;
+  color: #ff6600;
   border: 2px solid #7c7491;
   margin-bottom: 8px;
   border-radius: 100%;
